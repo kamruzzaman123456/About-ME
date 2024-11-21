@@ -96,7 +96,9 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
-
+ main section{
+    margin-top: 130px;
+ }
 /* about section style */
 .about{
     padding: 130px;
@@ -135,6 +137,75 @@ main{
 
 .skill-containsr{
     display: flex;
+    gap: 40px;
 }
+
+.skill-descriptoin{
+    color: #757575;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow:-6px 6px 50px -25px;
+}
+/*resume section style*/
+
+.resume-colum-title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+.resumi-continer{
+    display: flex;
+    gap: 50px;
+}
+
+.resome-items-titel-inestitut,.resome-items-descriprion{
+    color: #757575;
+}
+.resume-items-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resumi-continer hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"],[type="email"]
+,textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
+}
+.section-title{
+    margin-left: 8px;
+}
+
+
+
 
 
